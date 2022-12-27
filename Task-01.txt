@@ -1,0 +1,21 @@
+1 . Task -01 Array  [Do it before 9:00 PM tommorow ]
+
+1. Traversal of array 
+
+How many types you can traverse a array ? write the whole code from creating and traversing of array upto 3 differnt methods in notepad and run in any online or vs code compiler ?
+
+2.  Some Problem  [DO IN NOTEPAD OR ANY ONLINE COMPILER , MAKE A FOLDER OF ALL THIS AND PUSH IT TO A REPO NAME ARRAY_TRAVERSAL AND SEND THE LINK ] 
+
+1. Check the array is monotonic 
+2. How do you find the missing number in a given integer array of 1 to 100? 
+3.How do you find the duplicate number on a given integer array? 
+4. How do you find the largest and smallest number in an unsorted integer array?
+5. How do you find all pairs of an integer array whose sum is equal to a given number?
+6. How do you find duplicate numbers in an array if it contains multiple duplicates?
+7. How to remove duplicates from a given array in Java?
+8. How do you search a target value in a rotated array? 
+9. Given an unsorted array of integers, find the length of the longest consecutive elements sequence?
+10.How do you remove duplicates from an array in place? 
+
+
+3. Learn about associativity of operators in JAVA  
