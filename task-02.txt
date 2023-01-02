@@ -1,0 +1,11 @@
+1. how  to solve "container with most water " ?
+
+2.How do you perform a binary search in a given array?
+
+   3.How to find a median of two sorts arrays? 
+
+   4.How to rotate an array left and right by a given number K?
+
+    5.Given an array of integers sorted in ascending order, find the starting and ending position of a given value?
+
+   6.Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum?
