@@ -1,0 +1,11 @@
+In this problem the height of different bars are to be given in an array(say h[] of length n). We have to find how many units of water does it accomodate.
+
+A block can hold water if there are high bars on its left and right side . The amount of water can be found by finding the height of bars on left and right side. Total amount of water is the summation of all units of water.
+
+1. For this we form two auxiliary arrays , of length n, which are left and right.
+2. In left array , we store first element as left[0]=h[0], then we iterate from 1to n and store the maximum between left[i-1] and h[i].
+3. In right array, we store last element as right[n-1]=h[n-1], then we iterate from n-2 down to 0 and store the maximmum between right[i+1] and h[i].
+4. in this step we apply formula to get total ammount of water as:
+  We iterate from 0to n and store as:
+  ans+ = Math.min(left[i],right[i])-h[i];
+5. the answer stores the summation of all units of water.. return ans.
