@@ -1,0 +1,28 @@
+Q- Group the People Given the Group Size They Belong To
+
+
+
+code-  
+    List<List<Integer>> result= new ArrayList<>();
+        int n=groupSizes.length;
+        HashMap<Integer,ArrayList<Integer>> map=new HashMap<>();
+        for(int i=0;i<n;i++){
+            int size=groupSizes[i];
+            ArrayList<Integer> group;
+            if(map.containsKey(size)){
+                group=map.get(size);
+            }
+            else{
+                group=new ArrayList<>();
+            }
+            group.add(i);
+            if(group.size()==size){
+                map.remove(size);
+                result.add(group);
+            }
+            else{
+            map.put(size,group);
+            }
+        }
+
+        return result;
